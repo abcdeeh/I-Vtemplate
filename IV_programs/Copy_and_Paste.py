@@ -45,8 +45,6 @@ def copy(file_name,Sheet,area,ands):
     while i<2:
         print("name_of_data [If you want to go next sheet,write \"exit\" and press Enter]")
         frequency=input()
-        if(p>3):
-            frequency="exit"
 
 
         if frequency=="exit":
